@@ -4,10 +4,65 @@
     box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
-    color: aqua;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-#login{
-    font-size: 24px;
+
+
+.manePage {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width: 350px;
+    max-width: 100%;
+}
+
+
+.manePage h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+
+.manePage label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+
+.manePage input,
+.manePage input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+.manePage input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.manePage input[type="submit"]:hover {
+    background-color: #45a049;
 }
